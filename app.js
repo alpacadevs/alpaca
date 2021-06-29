@@ -8,6 +8,12 @@ const app = new App({
 var glob = require( 'glob' )
   , path = require( 'path' );
 
+const external = require('package.json').external
+
+external.forEach(function(mod){
+  require(mod)(app)
+})
+
 glob.sync( './scripts/**/*.js' ).forEach( function( file ) {
   require( path.resolve( file ) )(app);
 });
