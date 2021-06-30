@@ -1,22 +1,21 @@
 {
-  "name": "@chuncho/core",
-  "version": "0.0.1",
-  "description": "Bolt chatbot app for Slack",
+  "name": "@chuncho/chuncho",
+  "version": "1.0.0",
+  "description": "Chatbot app para Slack",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
     "@slack/bolt": "^3.4.0",
-    "@chuncho/imagen": "1.0.0",
-    "@chuncho/cuando-pagan": "1.0.1",
-    "@chuncho/dame-una-tarjeta": "1.0.0"
+    "glob": "^7.1.7",
+    "dotenv": "^10.0.0"
   },
   "engines": {
     "node": "14.x"
   },
   "repository": {
-    "url": "https://github.com/madkoding/chuncho"
+    "url": "https://github.com/chuncho-bot/chuncho"
   },
   "license": "MIT",
   "keywords": [
