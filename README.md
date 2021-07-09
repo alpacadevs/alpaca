@@ -1,4 +1,4 @@
-Chuncho slackbot
+Alpaca slackbot
 =================
 
 Basado en el framework [Bolt](https://slack.dev/bolt) que permite hacer aplicaciones para Slack
@@ -6,7 +6,7 @@ Basado en el framework [Bolt](https://slack.dev/bolt) que permite hacer aplicaci
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/chuncho-bot/core.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/chuncho-bot/core/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/chuncho-bot/core.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/chuncho-bot/core/context:javascript)
 
-Puedes agregar tus propios comandos en `/scripts` o puedes instalar comandos pre-hechos para Chuncho desde los repositorios npm. Agregará automaticamente cada uno de los paquetes instalados sin mayor configuración excepto que lo requiera como asignando variables de entorno en el archivo `.env`
+Puedes agregar tus propios comandos en `/scripts` o puedes instalar comandos pre-hechos para Alpaca desde los repositorios npm. Agregará automaticamente cada uno de los paquetes instalados sin mayor configuración excepto que lo requiera como asignando variables de entorno en el archivo `.env`
 
 Actualmente existen 3 scripts disponibles que puedes instalar via `npm`
 
